@@ -52,7 +52,12 @@ If current callstack is not needed then the SETTRACE is not useful either.
 
 ## 3. How to build:
 
-We can simply do:
+Init environment:
+```
+git submodule update --init --recursive
+```
+
+Build via docker
 ```
 ./build_via_docker.sh
 ```

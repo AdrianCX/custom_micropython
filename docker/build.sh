@@ -2,6 +2,8 @@
 
 cd /source/micropython
 
+git config --system --add safe.directory '*'
+
 make -C mpy-cross
 
 pushd ports/rp2
